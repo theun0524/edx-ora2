@@ -1,0 +1,470 @@
+# #-#-#-#-#  djangojs.po (edx-ora2)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2018 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-ora2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-29 13:04-0400\n"
+"PO-Revision-Date: 2014-06-04 15:41-0400\n"
+"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
+"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:53
+#: openassessment/xblock/static/js/src/oa_server.js:89
+#: openassessment/xblock/static/js/src/oa_server.js:113
+msgid "This section could not be loaded."
+msgstr "이 섹션을 로드할 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:134
+msgid "The staff assessment form could not be loaded."
+msgstr "스태프 평가 폼을 로드할 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:156
+msgid "The display of ungraded and checked out responses could not be loaded."
+msgstr "평가되지 않고, 가져온 응답을 로드할 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:191
+msgid "This response could not be submitted."
+msgstr "이 응답을 제출할 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:215
+msgid "This response could not be saved."
+msgstr "이 응답을 저장할 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:241
+msgid "This feedback could not be submitted."
+msgstr "이 피드백을 제출할 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:267
+#: openassessment/xblock/static/js/src/oa_server.js:359
+#: openassessment/xblock/static/js/src/oa_server.js:383
+msgid "This assessment could not be submitted."
+msgstr "이 평가 결과를 제출할 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:407
+msgid "One or more rescheduling tasks failed."
+msgstr "한개 이상의 일정 조정 작업에 실패 하였습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:460
+msgid "This problem could not be saved."
+msgstr "문제를 저장할 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:482
+msgid "The server could not be contacted."
+msgstr "서버에 연결할 수 없습ㄴ디ㅏ."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:509
+msgid "Could not retrieve upload url."
+msgstr "업로드 URL을 가져올 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:529
+#: openassessment/xblock/static/js/src/oa_server.js:549
+msgid "Server error."
+msgstr "서버 에러."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:570
+msgid "Could not retrieve download url."
+msgstr "다운로드 url을 가져올 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/oa_server.js:596
+msgid "The submission could not be removed from the grading pool."
+msgstr "제출물을 채점 풀에서 제거할 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_base.js:324
+msgid "Unable to load"
+msgstr "로드할 수 없음"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:48
+msgid "Unit Name"
+msgstr "유닛 이름"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:48
+msgid "Units"
+msgstr "유닛"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:52
+msgid "Assessment"
+msgstr "평가"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:52
+msgid "Assessments"
+msgstr "평가"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:56
+msgid "Total Responses"
+msgstr "총 응답"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:60
+msgid "Training"
+msgstr "훈련"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:64
+msgid "Peer"
+msgstr "동료"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:68
+msgid "Self"
+msgstr "자기"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:72
+msgid "Waiting"
+msgstr "대기"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:76
+msgid "Staff"
+msgstr "스태프"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:81
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:82
+msgid "Final Grade Received"
+msgstr "받은 최종 점수"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:111
+msgid "List of Open Assessments is unavailable"
+msgstr "열린 평가의 목록을 사용할 수 없음"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:212
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:262
+msgid "Please wait"
+msgstr "기다려 주세요"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:235
+msgid "Block view is unavailable"
+msgstr "블럭 보기를 사용할 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_course_items_listing.js:247
+msgid "Back to Full List"
+msgstr "전체 목록으로 돌아가기"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_peer.js:193
+msgid ""
+"If you leave this page without submitting your peer assessment, you will "
+"lose any work you have done."
+msgstr ""
+"동료 평가 결과를 제출하지 않고 이 페이지에서 나간다면, 작업한 내용을"
+"잃게 됩니다"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:130
+msgid ""
+"After you upload new files all your previously uploaded files will be "
+"overwritten. Continue?"
+msgstr ""
+"새 파일을 업로드 하면, 이전에 업로드한 파일을 덮어쓰게 됩니다."
+"계속 하시겠습니까?"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:283
+msgid "Your file "
+msgstr "당신의 파일"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:307
+msgid "Status of Your Response"
+msgstr "응답의 상태"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:382
+msgid "This response has not been saved."
+msgstr "이 응답은 저장되지 않았습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:386
+msgid ""
+"If you leave this page without saving or submitting your response, you will "
+"lose any work you have done on the response."
+msgstr ""
+"응답을 저장하거나 제출하지 않고 이 페이지에서 나간다면, 이 응답에 대해"
+"작업한 모든 내용을 잃어버리게 됩니다"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:404
+msgid "Saving..."
+msgstr "저장중..."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:426
+msgid "This response has been saved but not submitted."
+msgstr "이 응답은 저장되었습니다. 제출은 되지 않았습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:431
+msgid "Error"
+msgstr "에러"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:457
+msgid "Do you want to upload your file before submitting?"
+msgstr "제출하기 전에 파일을 업로드 하시겠습니까?"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:533
+msgid ""
+"You're about to submit your response for this assignment. After you submit "
+"this response, you can't change it or submit a new response."
+msgstr ""
+"이 과제에 대한 응답을 제출하려고 합니다. 응답을 한번  제출하고 나면"
+"변경하거나, 새로운 응답을 제출할 수 없습니다"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:574
+msgid "File size must be 10MB or less."
+msgstr "파일 크기는 10MB 보다 작아야 합니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:581
+#: openassessment/xblock/static/js/src/lms/oa_response.js:588
+#: openassessment/xblock/static/js/src/lms/oa_response.js:595
+msgid "You can upload files with these file types: "
+msgstr "다음의 파일 형태를 업로드 할 수 있습니다:"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:603
+msgid "File type is not allowed."
+msgstr "허용되지 않는 파일 타입 입니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:647
+#: openassessment/xblock/static/js/src/lms/oa_response.js:653
+msgid "Describe "
+msgstr "설명 "
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:647
+msgid "(required):"
+msgstr "(필수)"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_response.js:667
+msgid "Thumbnail view of "
+msgstr "썸네일 뷰"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_self.js:124
+msgid ""
+"If you leave this page without submitting your self assessment, you will "
+"lose any work you have done."
+msgstr ""
+"자기 평가를 제출하지 않고 이 페이지를 나간다면, 작업한 내용을"
+"잃어 버리게 됩니다"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:129
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:211
+msgid "Unexpected server error."
+msgstr "예기치 못한 서버 에러."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:133
+msgid "You must provide a learner name."
+msgstr "학습자의 이름을 제출해야 합니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:263
+msgid "Error getting the number of ungraded responses"
+msgstr "평가되지 않은 응답의 갯수를 가져오는데 문제가 발생했습니다."
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_staff_area.js:497
+msgid ""
+"If you leave this page without submitting your staff assessment, you will "
+"lose any work you have done."
+msgstr ""
+"스태프 평가를 제출하지 않고 이 페이지를 나간다면, 작업한 내용을"
+"잃어 버리게 됩니다"
+
+#: openassessment/xblock/static/js/openassessment-lms.min.js:1
+#: openassessment/xblock/static/js/src/lms/oa_training.js:116
+msgid "Feedback available for selection."
+msgstr "선택한 내용에 대한 피드백이 있습니다."
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:391
+msgid "Paragraph"
+msgstr "문단"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:392
+msgid "Preformatted"
+msgstr "포멧된"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:393
+msgid "Heading 3"
+msgstr "헤딩 3"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:394
+msgid "Heading 4"
+msgstr "헤딩 4"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:395
+msgid "Heading 5"
+msgstr "헤딩 5"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:396
+msgid "Heading 6"
+msgstr "헤딩 6"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_container_item.js:39
+msgid "Unnamed Option"
+msgstr "이름없는 선택 사항"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_container_item.js:49
+msgid "Not Selected"
+msgstr "선택되지 않음"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:145
+msgid "Couldn't Save This Assignment"
+msgstr "이 과제를 저장할 수 없음"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:146
+msgid "Please correct the outlined fields."
+msgstr "강조된 필드를 수정해 주십시오."
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit.js:180
+msgid ""
+"This problem has already been released. Any changes will apply only to "
+"future assessments."
+msgstr ""
+"이 문제는 이미 게시되었습니다. 모든 변경내용은 이후의 평가에서만 반영"
+"됩니다"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:97
+msgid "Criterion Added"
+msgstr "평가 기준 추가됨"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:98
+msgid ""
+"You have added a criterion. You will need to select an option for the "
+"criterion in the Learner Training step. To do this, click the Settings tab."
+msgstr ""
+"평가기준을 추가하였습니다. 할습자 평가 단계에서 평가 기준에 대한 선택사항을"
+"선택해야 합니다. 그를 위해서는 설정 탭을 클릭해 주십시오"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:144
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:179
+msgid "Option Deleted"
+msgstr "삭제된 선택 사항"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:145
+msgid ""
+"You have deleted an option. That option has been removed from its criterion "
+"in the sample responses in the Learner Training step. You might have to "
+"select a new option for the criterion."
+msgstr ""
+"선택 사항을 삭제하셨습니다. 그 선택사항은 학습자 훈련 단계의  평가 기준의 "
+"예제 응답에서도 제거 됩니다. 해당 평가 기준에서 새로운 선택 사항을 선택 하셔야"
+"합니다"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:180
+msgid ""
+"You have deleted all the options for this criterion. The criterion has been "
+"removed from the sample responses in the Learner Training step."
+msgstr ""
+"이 평가 기준에서 모든 선택 사항을 삭제하셨습니다. 학습자 훈련 단계"
+"의 예제 응답에서 평가 기준이 제거되었습니다"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:206
+msgid "Criterion Deleted"
+msgstr "평가 기준 제거됨"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:207
+msgid ""
+"You have deleted a criterion. The criterion has been removed from the "
+"example responses in the Learner Training step."
+msgstr ""
+"평가 기준을 제거하셨습니다. 평가기준이 학습자 훈련 단계에서 평가 기준도"
+"삭제 되었습니다"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:376
+msgid "Warning"
+msgstr "경고"
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_listeners.js:377
+msgid ""
+"Changes to steps that are not selected as part of the assignment will not be "
+"saved."
+msgstr ""
+"과제에서 선택되지 않은 단계의 내용들은 저장되지 않습니다"
+"."
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_settings.js:66
+msgid "File types can not be empty."
+msgstr "파일 타입은 비워둘 수 없습니다."
+
+#: openassessment/xblock/static/js/openassessment-studio.min.js:1
+#: openassessment/xblock/static/js/src/studio/oa_edit_settings.js:76
+msgid "The following file types are not allowed: "
+msgstr "다음의 파일 타입은 허용되지 않습니다."

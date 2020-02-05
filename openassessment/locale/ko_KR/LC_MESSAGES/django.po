@@ -1,0 +1,2303 @@
+# #-#-#-#-#  django.po (edx-ora2)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2018 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-ora2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-29 13:04-0400\n"
+"PO-Revision-Date: 2014-06-04 15:41-0400\n"
+"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
+"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: openassessment/assessment/api/student_training.py:176
+msgid "Could not parse serialized rubric"
+msgstr ""
+
+#: openassessment/assessment/api/student_training.py:188
+msgid ""
+"If your assignment includes a learner training step, the rubric must have at "
+"least one criterion, and that criterion must have at least one option."
+msgstr ""
+"과제가 학습자 훈련 단계를 포함한다면, 채점기준은 최소한 한가지 이상의 기준을"
+"포함해야 하고, 그 기준은 최소 한가지의 선택 사항을 가져야 합니다."
+
+#: openassessment/assessment/api/student_training.py:200
+#, python-brace-format
+msgid "Example {example_number} has a validation error: {error}"
+msgstr "{example_number} 의 예제에서 검증 에러가 발생했습니다: {error}"
+
+#: openassessment/assessment/api/student_training.py:214
+#, python-brace-format
+msgid ""
+"Example {example_number} has an invalid option for \"{criterion_name}\": "
+"\"{option_name}\""
+msgstr ""
+"{example_number} 예제는, \"{criterion_name}\" 에 대한 적절하지 않은 선택사항을 포함합니다: "
+"\"{option_name}\""
+
+#: openassessment/assessment/api/student_training.py:224
+#, python-brace-format
+msgid "Example {example_number} has an extra option for \"{criterion_name}\""
+msgstr "{example_number} 예제는 \"{criterion_name}\"에 대해 존재하지 않는 선택사항을 포함합니다."
+
+#: openassessment/assessment/api/student_training.py:237
+#, python-brace-format
+msgid "Example {example_number} is missing an option for \"{criterion_name}\""
+msgstr "{example_number} 예제는 \"{criterion_name}\" 에 대해 빠진 선택사항이 있습니다."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:12
+msgid "Open Response Assessment"
+msgstr "열린 응답 평가"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:14
+msgid "Settings"
+msgstr "설정"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:15
+msgid "Rubric"
+msgstr "채점기준"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:16
+#: openassessment/templates/openassessmentblock/edit/oa_edit_prompt.html:7
+msgid "Prompt"
+msgstr "지문"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:23
+msgid "Rubric Change Impacts Settings Section"
+msgstr "채점기준의 변경은 셋팅 섹션에 영향을 줍니다."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:24
+msgid ""
+"A change that you made to this assessment's rubric has an impact on some "
+"examples laid out in the settings tab. For more information, go to the "
+"Settings section and fix the areas highlighted in red."
+msgstr ""
+"이 평가의 채점기준에 대한 수정은 설정 탭에 있는 몇몇 예제에 영향을 줍니다."
+"좀더 자세한 사항을 확인하려면, 설정 섹션에 가서 빨간색으료 표시된 영역을"
+"수정하십시오."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:28
+msgid "close alert"
+msgstr "경고창 닫기"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:41
+msgid "Display Name "
+msgstr "표시 이름"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:44
+msgid "The display name for this component."
+msgstr "이 콤포넌트의 표시 이름"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:51
+msgid "Response Start Date"
+msgstr "응답 시작 일자"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:64
+msgid "Response Start Time"
+msgstr "응답 시작 시간"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:73
+msgid "The date and time when learners can begin submitting responses."
+msgstr "학습자가 응답을 제출하기 시작할수 있는 날짜와 시간"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:80
+msgid "Response Due Date"
+msgstr "응답 기한 날짜"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:93
+msgid "Response Due Time"
+msgstr "응답 기한 시간"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:102
+msgid "The date and time when learners can no longer submit responses."
+msgstr "학습자가 더 이상 응답을 제출할 수 없는 날짜와 시간"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:106
+msgid "Text Response"
+msgstr "텍스트 응답"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:114
+msgid ""
+"Specify whether learners must include a text based response to this "
+"problem's prompt."
+msgstr ""
+"이 문제의 지문에 대해 학습자가 텍스트 응답을 반드시 해야 하는지 지정"
+""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:119
+msgid "File Uploads Response"
+msgstr "파일 업로드 응답"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:127
+msgid ""
+"Specify whether learners are able to upload files as a part of their "
+"response."
+msgstr ""
+"학습자가 응답의 일부로 파일을 업로드 할 수 있는지 지정"
+""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:131
+msgid "File Upload Types"
+msgstr "파일 업로드 종류"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:133
+msgid "PDF or Image Files"
+msgstr "PDF혹은 이미지 파일"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:134
+msgid "Image Files"
+msgstr "이미지 파일"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:135
+msgid "Custom File Types"
+msgstr "다른 종류 파일"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:139
+msgid ""
+"Specify whether learners can submit files along with their text responses. "
+"Select Images to allow JPG, GIF, or PNG files. Select PDF or Images to allow "
+"PDF files and images. Select Custom File Types to allow files with "
+"extensions that you specify below. (Use the Select Custom File Types option "
+"with caution.)"
+msgstr ""
+"학습자가 텍스트 응답과 함께 파일을 업로드 할 수 있는지 지정."
+"이미지를 선택하면, JPG, GIF 혹은 PNG 파일을 업로드 할 수 있고, PDF 혹은 이미지"
+"를 선택하면 PDF 파일과 이미지를 업로드 할 수 있다. 기타 파일 종류를 선택하면"
+"지정하는 확장자의 파일을 업로드 할 수 있다. (기타 파일 종류를 사용할때에는"
+"주의 하여야 한다.)"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:143
+msgid "File Types"
+msgstr "파일 종류"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:151
+msgid ""
+"Enter the file extensions, separated by commas, that you want learners to be "
+"able to upload. For example: pdf,doc,docx."
+msgstr ""
+"파일 확장자를 콤마로 구분하여 입력하세요. 그 확장자의 파일을"
+"학습자가 업로드 할 수 있습니다. 예: pdf,doc,docs"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:159
+msgid "Allow LaTeX Responses"
+msgstr "LaTex 응답 허용"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:161
+msgid "False"
+msgstr "아니요"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:162
+msgid "True"
+msgstr "예"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:165
+msgid "Specify whether learners can write LaTeX formatted strings"
+msgstr "학습자가 LaTex 형식의 텍스트를 사용할 수 있는지 지정"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:169
+#: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_show.html:8
+#: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_waiting.html:8
+msgid "Top Responses"
+msgstr "최고의 응답"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:178
+msgid ""
+"Specify the number of top scoring responses to display. Valid numbers are 0 "
+"to 99. If the number is 0, the Top Responses section does not appear to "
+"learners."
+msgstr ""
+"최고의 점수를 받은 응답을 표시할 갯수 지정. 가능한 값은 0에서 00 사이의 숫자임."
+"0을 적으면 최고의 응답 섹션은 학습자에게 보이지 않는다."
+""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:184
+msgid ""
+"In this assignment, you can include learner training, peer assessment, self "
+"assessment, and staff assessment steps. Select the steps that you want "
+"below, and then drag them into the order you want. If you include a learner "
+"training step, it must precede all other steps. If you include a staff "
+"assessment step, it must be the final step. After you release an ORA "
+"assignment, you cannot change the type and number of assessment steps."
+msgstr ""
+"과제에서, 학습자 훈련, 동료 평가, 자기 평가, 그리고 스태프 평가 단계를 "
+"포함할 수 있습니다. 아래에서 원하는 단계를 선택하고, 원하는 순서대로 드래그"
+"할 수 있습니다. 학습자 훈련 단계를 포함하는 경우 다른 어떤 단계보다 앞에"
+"있어야 합니다. 스태프 평가 단계를 포함한다면, 그것은 최종 단계이어야 합니다"
+"열린응답평가가 게시된 이후에는 평가 단계의 종류와 갯수를 변경할 수 없습니다"
+""
+""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:200
+msgid "Save"
+msgstr "저장"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit.html:204
+msgid "Cancel"
+msgstr "취소"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:6
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:100
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:25
+msgid "Criterion"
+msgstr "평가기준"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:7
+msgid "You cannot delete a criterion after the assignment has been released."
+msgstr "과제가 게시된 이후에는 평가기준을 삭제할 수 없습니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:9
+#: openassessment/templates/openassessmentblock/edit/oa_edit_option.html:7
+#: openassessment/templates/openassessmentblock/edit/oa_edit_prompt.html:10
+#: openassessment/templates/openassessmentblock/edit/oa_training_example.html:10
+msgid "Remove"
+msgstr "제거"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:17
+msgid "Criterion Name"
+msgstr "평가기준 이름"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:29
+msgid "Criterion Prompt"
+msgstr "평가기준 지문"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:44
+msgid "Add Option"
+msgstr "선택사항 추가"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:52
+msgid "Feedback for This Criterion"
+msgstr "이 평가기준에 대한 피드백"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:54
+#: openassessment/xblock/studio_mixin.py:47
+msgid "None"
+msgstr "없음"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:55
+#: openassessment/xblock/studio_mixin.py:46
+msgid "Optional"
+msgstr "선택사항"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:56
+#: openassessment/templates/openassessmentblock/oa_rubric.html:13
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:91
+#: openassessment/xblock/studio_mixin.py:45
+msgid "Required"
+msgstr "필수사항"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_criterion.html:61
+msgid ""
+"Select one of the options above. This describes whether or not the learner "
+"will have to provide criterion feedback."
+msgstr ""
+"위의 선택사항중의 하나를 선택하세요. 학습자가 평가기준 피드백을 반드시"
+"제출해야 하는지 결정합니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_option.html:5
+msgid "Option"
+msgstr "선택항목"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_option.html:16
+msgid "Option Name"
+msgstr "선택항목 이름"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_option.html:29
+msgid "Option Points"
+msgstr "선택항목 점수"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_option.html:42
+msgid "Option Explanation"
+msgstr "선택 항목에 대한 설명"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:9
+msgid "Step: Peer Assessment"
+msgstr "단계: 동료 평가"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:13
+msgid ""
+"Learners assess a specified number of other learners' responses using the "
+"rubric for the assignment."
+msgstr ""
+"학습자가 지정된 숫자만큼의 다른 학습자의 응답을 과제물의 평가기준에 맞추어 평가"
+"합니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:17
+msgid "Specify the following values for the peer assessment step."
+msgstr "동료 평가 단계에 대해 다음의 값들을 지정하십시오."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:22
+msgid "Must Grade"
+msgstr "반드시 평가해야 함"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:25
+msgid ""
+"Specify the number of peer assessments that each learner must complete. "
+"Valid numbers are 0 to 99."
+msgstr ""
+"각 학습자가 반드시 평가해야 하는 동료 평가의 숫자를 적으세요."
+"가능한 값은 0에서 99 사이의 숫자 입니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:29
+msgid "Graded By"
+msgstr "평가자:"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:32
+msgid ""
+"Specify the number of learners that each response must be assessed by. Valid "
+"numbers are 0 to 99."
+msgstr ""
+"각 학습자가 반드시 평가받아야 하는 동료 평가의 숫자를 적으세요."
+"가능한 값은 0에서 99 사이의 숫자 입니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:36
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:22
+msgid "Start Date"
+msgstr "시작 날짜"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:45
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:31
+msgid "Start Time"
+msgstr "시작 시간"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:53
+msgid ""
+"Enter the date and time when learners can begin assessing peer responses."
+msgstr "학습자가 동료 응답을 평가하기 시작할 수 있는 날짜"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:57
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:43
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:92
+msgid "Due Date"
+msgstr "마감 날짜"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:66
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:52
+msgid "Due Time"
+msgstr "마감 시간"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_peer_assessment.html:74
+msgid "Enter the date and time when all peer assessments must be complete."
+msgstr "동료 평가가 종료되어야 하는 시간과 날짜를 적으세요"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_prompt.html:8
+msgid "You cannot delete a prompt after the assignment has been released."
+msgstr "과제가 게시된 이후에 지문을 삭제할 수 없습니다."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_prompts.html:10
+msgid ""
+"Prompts. Replace the sample text with your own text. For more information, "
+"see the ORA documentation."
+msgstr ""
+"지문. 예제로 주어진 텍스트를 자신의 텍스트로 바꾸십시오. 좀 더 자세한 내용은"
+"열린응답평가 문서를 참고하십시오"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_prompts.html:22
+msgid "Add Prompt"
+msgstr "지문 추가"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:14
+msgid ""
+"Rubrics are made up of criteria, which usually contain one or more options. "
+"Each option has a point value. This template contains two sample criteria "
+"and their options. Replace the sample text with your own text. For more "
+"information, see the ORA documentation."
+msgstr ""
+"채점기준은 평가기준들로 구성됩니다. 평가기준은 하나혹은 그 이상의 선택항목들을 포함"
+"합니다. 각각의 선택항목은 점수 값을 가지고 있습니다. 이 템플리트는 두개의 "
+"예제 평가기준와 각각의 선택항목을 포함합니다. "
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:26
+msgid "Add Criterion"
+msgstr "평가기준 추가"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:32
+msgid "Feedback for This Response"
+msgstr "이 응답에 대한 피드백"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:37
+msgid "Feedback Instructions"
+msgstr "피드백 방법"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:41
+msgid ""
+"Encourage learners to provide feedback on the response they have graded. You "
+"can replace the sample text with your own."
+msgstr ""
+"학습자가 평가를 한 응답에 대한 피드백을 하도독 독려해 주세요"
+"아래의 예문을 고쳐 쓸 수 있습니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:46
+msgid "Default Feedback Text"
+msgstr "기본 피드백 문장"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_rubric.html:50
+msgid ""
+"Enter feedback text that learners will see before they enter their own "
+"feedback. Use this text to show learners a good example peer assessment."
+msgstr ""
+"학습자가 자신의 피드백을 입력하기 전에 보게 될 피드백 문구를 입력하세요"
+"학습자가 이 문구를 동료평가의 좋은 예제로 사용하도록 합니다 "
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:9
+msgid "Step: Self Assessment"
+msgstr "단계: 자기 평가"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:13
+msgid ""
+"Learners assess their own responses using the rubric for the assignment."
+msgstr ""
+"학습자가 자신의 응답을 과제의 평가 기준에 맞추어 평가해 보도록 합니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:17
+msgid "Specify start and due dates for the self assessment step."
+msgstr "자기 평가의 시작과 마감 날짜를 지정합니다."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:39
+msgid ""
+"Enter the date and time when learners can begin assessing their responses."
+msgstr ""
+"학습자가 자신의 응답을 평가하기 시작할 날짜와 시간을 입력합니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_self_assessment.html:60
+msgid "Enter the date and time when all self assessments must be complete."
+msgstr "모든 자기 평가가 완료되어야 할 날짜를 입력합니다."
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_staff_assessment.html:8
+msgid "Step: Staff Assessment"
+msgstr "단계: 스태프 평가"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_staff_assessment.html:12
+msgid ""
+"Staff members assess learners' responses using the rubric for the assignment."
+msgstr ""
+"스태프 구성원이 학습자의 응답을 과제의 평가 기준에 맞추어 평가 합니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html:9
+msgid "Step: Learner Training"
+msgstr "단계: 학습자 훈련"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html:14
+msgid ""
+"Learners learn to assess responses by scoring pre-assessed sample responses "
+"that you provide. Learners move to the next step when the scores they give "
+"match your scores. Note that if you add this step, you must also add a peer "
+"assessment step. This step must come before the peer assessment step."
+msgstr ""
+"학습자가 응답에 대해 평가하는 방법을, 미리 평가된 예제 응답을 통해 학습하게"
+"합니다. 학습자는 당신이 제공한 점수와 맞는 점수를 입력했을때 다음 단계로 넘어"
+"갈 수 있습니다. 이 단계를 추가하면, 반드시 동료 평가 단계도 추가해야 합니다"
+"이 단계는 동료 평가 단계 이전에 배치되어야 합니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html:18
+msgid ""
+"Enter one or more sample responses that you've created, and then specify the "
+"options that you would choose for each criterion in your rubric. Note that "
+"you must add your rubric to the Rubric tab before you can complete this step."
+msgstr ""
+"하나 혹은 그 이상의 응답을 만들어서 입력합니다. 그리고, 각각의 평가 조건에 맞는"
+"선택 사항을 기술합니다. 이 단계를 완료 하기 전에 평가 기준 탭에서 평가 기준들을"
+"추가해야만 합니다"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_student_training.html:26
+msgid "Add Sample Response"
+msgstr "예제 응답 추가"
+
+#: openassessment/templates/openassessmentblock/edit/oa_training_example.html:7
+msgid "Scored Response"
+msgstr "평가된 응답"
+
+#: openassessment/templates/openassessmentblock/edit/oa_training_example.html:16
+msgid "Response Score"
+msgstr "응답 점수"
+
+#: openassessment/templates/openassessmentblock/edit/oa_training_example.html:27
+msgid "Response"
+msgstr "응답"
+
+#: openassessment/templates/openassessmentblock/edit/oa_training_example_criterion.html:10
+msgid "Not Selected"
+msgstr "선택되지 않음"
+
+#: openassessment/templates/openassessmentblock/edit/oa_training_example_criterion.html:15
+#: openassessment/templates/openassessmentblock/oa_rubric.html:37
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:126
+msgid "points"
+msgstr "점"
+
+#: openassessment/templates/openassessmentblock/grade/oa_assessment_feedback.html:8
+#, python-format
+msgid ""
+"\n"
+"                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - "
+"%(grade)s%(end_tag)s\n"
+"              "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/grade/oa_assessment_title.html:7
+#, python-format
+msgid ""
+"\n"
+"                      %(assessment_title)s - %(points)s point\n"
+"                  "
+msgid_plural ""
+"\n"
+"                      %(assessment_title)s - %(points)s points\n"
+"                  "
+msgstr[0] ""
+msgstr[1] ""
+
+#: openassessment/templates/openassessmentblock/grade/oa_assessment_title.html:24
+#, python-format
+msgid "More information about %(name)s"
+msgstr "%(name)s 에 대한 좀더 자세한 정보"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_cancelled.html:14
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:15
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:26
+#: openassessment/templates/openassessmentblock/grade/oa_grade_incomplete.html:14
+#: openassessment/templates/openassessmentblock/grade/oa_grade_not_started.html:14
+#: openassessment/templates/openassessmentblock/grade/oa_grade_waiting.html:14
+msgid "Your Grade"
+msgstr "당신의 점수"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_cancelled.html:19
+#, python-format
+msgid ""
+"\n"
+"                                        %(points_earned)s out of "
+"%(points_possible)s\n"
+"                                    "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_cancelled.html:38
+msgid "Your submission has been cancelled."
+msgstr "제출이 취소되었습니다."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:19
+#, python-format
+msgid ""
+"\n"
+"                                            %(points_earned)s out of "
+"%(points_possible)s\n"
+"                                        "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:38
+#: openassessment/templates/openassessmentblock/response/oa_response.html:23
+msgid "Your Response"
+msgstr "당신의 응답"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:41
+msgid "Your Upload"
+msgstr "당신의 업로드"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:46
+msgid "Assessments of Your Response"
+msgstr "당신의 응답에 대한 평가"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:59
+msgid "Overall Grade"
+msgstr "전반적 점수"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:64
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:28
+msgid "Points"
+msgstr "점"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:90
+msgid "Additional comments on your response"
+msgstr "응답에 대한 추가적 코멘트"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:111
+msgid "Provide feedback on peer assessments"
+msgstr "동료 평가에 대한 피드백 제공"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:120
+msgid "Submitting Feedback"
+msgstr "피드백 제출중"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:126
+#: openassessment/templates/openassessmentblock/message/oa_message_closed.html:4
+#: openassessment/templates/openassessmentblock/message/oa_message_complete.html:4
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:4
+#: openassessment/templates/openassessmentblock/peer/oa_peer_closed.html:33
+#: openassessment/templates/openassessmentblock/peer/oa_peer_complete.html:30
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:40
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode_waiting.html:34
+#: openassessment/templates/openassessmentblock/peer/oa_peer_waiting.html:34
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:31
+#: openassessment/templates/openassessmentblock/response/oa_response_closed.html:29
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:30
+#: openassessment/templates/openassessmentblock/self/oa_self_closed.html:30
+#: openassessment/templates/openassessmentblock/student_training/student_training_closed.html:27
+msgid "Status"
+msgstr "상태"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:128
+msgid ""
+"Your feedback has been submitted. Course staff will be able to see this "
+"feedback when they review course records."
+msgstr ""
+"피드백에 제출되었습니다. 코스 스태프가 코스 기록을 리뷰할때 이 피드백을"
+"보게 될 것입니다"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:134
+msgid ""
+"Course staff will be able to see any feedback that you provide here when "
+"they review course records."
+msgstr ""
+"당신이 여기에 제풀한 피드백을 코스 스테프가 코스 기록을 리뷰할때 보게될 "
+"것입니다"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:140
+msgid ""
+"Select the statements below that best reflect your experience with peer "
+"assessments."
+msgstr ""
+"동료 평가를 할때의 경험과 가장 일치하는 설명을 고르세요."
+""
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:149
+msgid "These assessments were useful."
+msgstr "이 평가는 도움이 되었습니다."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:158
+msgid "These assessments were not useful."
+msgstr "이 평가는 별로 도움이 되지 않았습니다."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:167
+msgid "I disagree with one or more of the peer assessments of my response."
+msgstr "내 응답에 대한 몇몇 동료 평가에 동의하기 어렵습니다."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:176
+msgid "Some comments I received were inappropriate."
+msgstr "내가 받은 몇몇 코멘트는 적절하지 않습니다."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:181
+msgid ""
+"Provide feedback on the grade or comments that you received from your peers."
+msgstr "동료에게서 받은 코멘트나 점수에 대해 피드백 제공"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:184
+msgid "I feel the feedback I received was..."
+msgstr "내가 받은 피드백에 대해 이렇게 생가합니다..."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:194
+msgid "We could not submit your feedback"
+msgstr "피드백을 제출할 수 없습니다."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:200
+msgid "Submit feedback on peer assessments"
+msgstr "동료 평가에 대한 피드백 제출"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_incomplete.html:16
+msgid "Not Completed"
+msgstr "완료되지 않음"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_incomplete.html:27
+msgid "You have not completed all the steps of this problem."
+msgstr "이 문제에 대한 모든 단계를 마치지 않았습니다."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_not_started.html:16
+msgid "Not Started"
+msgstr "시작하지 않음"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_not_started.html:27
+msgid "You have not started this problem yet."
+msgstr "이 문제를 아직 시작하지 않았습니다."
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_waiting.html:16
+msgid "Waiting for Assessments"
+msgstr "평가를 기다리고 있음"
+
+#: openassessment/templates/openassessmentblock/grade/oa_grade_waiting.html:27
+msgid ""
+"You have completed your steps in the assignment, but some assessments still "
+"need to be done on your response. When the assessments of your response are "
+"complete, you will see feedback from everyone who assessed your response, "
+"and you will receive your final grade."
+msgstr ""
+"과제에 대해 할수 있는 단계는 완료 했습니다. 하지만 응답에 대한 몇가지의 평가가 "
+"필요합니다. 응답에 대한 평가가 완료되면, 당신의 응답을 평가한 모든 사람들의 평가를"
+"볼 수 있고, 최종 점수를 받게 됩니다"
+
+#: openassessment/templates/openassessmentblock/instructor_dashboard/oa_grade_available_responses.html:15
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:9
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:126
+msgid "Grade Available Responses"
+msgstr "가능한 응답에 대한 채점"
+
+#: openassessment/templates/openassessmentblock/instructor_dashboard/oa_grade_available_responses.html:26
+msgid ""
+"Grade Available Responses is unavailable. This item is not configured for "
+"Staff Assessment."
+msgstr ""
+"가능한 응답에 대한 채점이 불가능합니다. 이 항목은 스태프 평가에 대해 설정되지"
+"않았습니다"
+
+#: openassessment/templates/openassessmentblock/instructor_dashboard/oa_listing.html:6
+msgid "Please wait"
+msgstr "기다려 주세요"
+
+#: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_show.html:20
+#, python-format
+msgid "%(num_points)s points"
+msgstr "%(num_points)s 점"
+
+#: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_show.html:24
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:74
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:53
+msgid "Your peer's response to the prompt above"
+msgstr "위에 제시된 지문에 대한 동료의 평가"
+
+#: openassessment/templates/openassessmentblock/leaderboard/oa_leaderboard_waiting.html:18
+msgid ""
+"After you complete all the steps of this assignment, you can see the top-"
+"scoring responses from your peers."
+msgstr ""
+"이 과제에 대한 모든 단계가 완료된 후, 동료들의 응답중 최고의 점수를 받은 응답을"
+"볼 수 있습니다."
+
+#: openassessment/templates/openassessmentblock/message/oa_message_closed.html:8
+msgid ""
+"This task is not yet available. Check back to complete the assignment once "
+"this section has opened."
+msgstr ""
+"이 작업은 아직 가능하지 않습니다. 이 섹션이 열린 뒤에 과제를 완수하기 위해"
+"다시 확인해 주세요"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_closed.html:10
+msgid ""
+"This assignment has closed. One or more deadlines for this assignment have "
+"passed. You will receive an incomplete grade for this assignment."
+msgstr ""
+"이 과제는 끝났습니다. 과제에 대한 몇몇 기한이 지났습니다. 이 과제에 대해"
+"완료하지 못함 점수를 받게 될 것입니다"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_complete.html:8
+msgid ""
+"You have completed this assignment. Your final grade will be available when "
+"the assessments of your response are complete."
+msgstr ""
+"이 과제를 완수 했습니다. 응답에 대한 평가가 완전히 끝난 후에 최종 점수를"
+"확인하실 수 있습니다"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_complete.html:10
+msgid ""
+"You have completed this assignment. Review your grade and your assessment "
+"details."
+msgstr ""
+"과제를 완수 했습니다. 점수를 확인하시고, 평가에 대한 세부 사항을 확인하세요"
+""
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:9
+msgid ""
+"This assignment is in progress. Learner training will close soon. Complete "
+"the learner training step to move on."
+msgstr ""
+"이 과제는 진행중 입니다. 학습자 훈련이 조만간 끝납니다. 계속하시려면 학습자"
+"훈련 단계를 완료하세요"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:11
+msgid ""
+"This assignment is in progress. Complete the learner training step to move "
+"on."
+msgstr ""
+"이 과제는 진행중 입니다. 학습자 훈련 단계를 완료하여 계속 진행 하세요"
+""
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:15
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:33
+msgid ""
+"This assignment is in progress. Check back later when the assessment period "
+"has started."
+msgstr ""
+"이 과제는 진행중입니다. 추후에 평가 기간이 시작되면 다시 확인해 주세요."
+""
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:20
+#, python-format
+msgid ""
+"\n"
+"                                    %(start_strong)sThis assignment is in "
+"progress. The self assessment step will close soon.%(end_strong)s You still "
+"need to complete the %(start_link)sself assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"                                    %(start_strong)s이 과제는 진행중입니다. "
+"자기 평가 단계가 곧 종료됩니다.%(end_strong)s  "
+"%(start_link)s자기평가%(end_link)s 단계를 완료 해야 합니다..\n"
+"                                "
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:24
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress. You "
+"still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"                                    이 과제는 진행중입니다."
+"%(start_link)s자기 평가%(end_link)s 단계를 완료해야 합니다..\n"
+"                                "
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:38
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress."
+"%(start_strong)sThe peer assessment step will close soon.%(end_strong)s All "
+"submitted peer responses have been assessed. Check back later to see if more "
+"learners have submitted responses. You still need to complete the "
+"%(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"                                    이 과제는 진행중 입니다."
+"%(start_strong)s동료 평가 단계가 곧 종료됩니다.%(end_strong)s 모든 "
+"제출된 동료 응답이 평가되었습니다. 다음에 다시 다른 학습자의 응답이"
+"제출되었을때 확인해 주세요. "
+"%(start_link)s동료 평가%(end_link)s 단계를 완료 하셔야 합니다.\n"
+"                                "
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:42
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress. All "
+"submitted peer responses have been assessed. Check back later to see if more "
+"learners have submitted responses. You still need to complete the "
+"%(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"                                    이 과제는 아직 진행중입니다. 모든 제출된"
+"동료의 응답은 평가 되었습니다. 다음에 다시 다른 학습자가 응답을 제출했는지 확인해"
+"주시기 바랍니다. "
+"%(start_link)s동료 평가%(end_link)s 단계를 완료 하셔야 합니다.\n"
+"                                "
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:46
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress. "
+"%(start_strong)sThe peer assessment step will close soon.%(end_strong)s You "
+"still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"                                    이 과제는 아직 진행중 입니다. "
+"%(start_strong)s동료 평가 단계가 곧 종료됩니다.%(end_strong)s  "
+"%(start_link)s동료 평가%(end_link)s 단계를 완료 하셔야 합니다.\n"
+"                    "
+
+#: openassessment/templates/openassessmentblock/message/oa_message_incomplete.html:50
+#, python-format
+msgid ""
+"\n"
+"                                    This assignment is in progress. You "
+"still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
+"                                "
+msgstr ""
+"\n"
+"                                    이 과제는 아직 진행중 입니다."
+"%(start_link)s동료 평가%(end_link)s 단계를 완료 하셔야 합니다.\n"
+"                                "
+
+#: openassessment/templates/openassessmentblock/message/oa_message_open.html:7
+#, python-format
+msgid ""
+"\n"
+"                    과제 제출기한이 곧 종료됩니다. 점수를 받기 위해서는"
+"먼제 지문에 대한 응답을 제출하고, "
+"%(start_tag)s당신의 응답%(end_tag)s 필드 아래에 있는 단계들을 완료 해야 합니다..\n"
+"                "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/message/oa_message_open.html:11
+#, python-format
+msgid ""
+"\n"
+"                    이 과제는 여러 단계로 이루어져 있습니다. 첫단계로, 지문에 대한 응답을"
+"제출해야 합니다. 다른 단계는 "
+"%(start_tag)s당신의 응답%(end_tag)s 필드 아래에 나타나게 됩니다.\n"
+"                "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/message/oa_message_unavailable.html:4
+msgid "Instructions Unavailable"
+msgstr "절차 설명 없음"
+
+#: openassessment/templates/openassessmentblock/message/oa_message_unavailable.html:6
+msgid "The instructions for this step could not be loaded."
+msgstr "이 단계에 대한 설명을 읽을 수 없습니다."
+
+#: openassessment/templates/openassessmentblock/oa_base.html:15
+msgid ""
+"This assignment has several steps. In the first step, you'll provide a "
+"response to the prompt. The other steps appear below the Your Response field."
+msgstr ""
+"이 과제는 여러 단계로 이루어져 있습니다. 첫번째 단계로 지문에 대한 응답을"
+"제출하시면 됩니다. 나머지 단계는 당신의 응답 필드 아래에 나타나게 됩니다."
+
+#: openassessment/templates/openassessmentblock/oa_base.html:36
+msgid "Loading"
+msgstr "로딩"
+
+#: openassessment/templates/openassessmentblock/oa_latex_preview.html:7
+msgid "Preview in LaTeX"
+msgstr "LaTex로 미리보기"
+
+#: openassessment/templates/openassessmentblock/oa_latex_preview.html:10
+msgid "Click to preview your submission in LaTeX."
+msgstr "제출에 대한 프리뷰를 LaTex로 보려면 클릭하세요"
+
+#: openassessment/templates/openassessmentblock/oa_latex_preview.html:15
+msgid "Preview Response"
+msgstr "응답 미리보기"
+
+#: openassessment/templates/openassessmentblock/oa_rubric.html:46
+msgid "Comments"
+msgstr "코멘트"
+
+#: openassessment/templates/openassessmentblock/oa_submission_answer.html:8
+msgid "The question for this section"
+msgstr "이 섹션에 대한 질문"
+
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:28
+msgid "View the files associated with this submission:"
+msgstr "이 제출에 연관된 파일들 보기"
+
+#: openassessment/templates/openassessmentblock/oa_uploaded_file.html:36
+msgid ""
+"Caution: These files were uploaded by another course learner and have not "
+"been verified, screened, approved, reviewed, or endorsed by the site "
+"administrator. If you access the files, you do so at your own risk.)"
+msgstr ""
+"주의: 이 파일들은 다른 코스 학습자에 의해 업로드 되었고, 검증, 필터, 승인, "
+"리뷰, 되거나 사이트 관리자에 의해 추천된적이 없습니다."
+"이 파일에 접근할때는 조심하시기 바랍니다."
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:26
+msgid "Assess Peers"
+msgstr "동료 평가하기"
+
+#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 00:00 UTC (in 5 days and 45 minutes)"
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:34
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" "
+"data-datetime=\"%(start_date)s\" data-string=\"available {date} (in "
+"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language="
+"\"%(user_language)s\"></span>\n"
+"            "
+msgstr ""
+
+#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 00:00 UTC (in 5 days and 45 minutes)"
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:41
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" "
+"data-datetime=\"%(due_date)s\" data-string=\"due {date} (in "
+"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language="
+"\"%(user_language)s\"></span>\n"
+"            "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:51
+#, python-format
+msgid ""
+"\n"
+"                    In Progress (%(review_number)s of %(num_must_grade)s)\n"
+"                "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:65
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:45
+msgid "Read and assess the following response from one of your peers."
+msgstr "동료중 한명이 제출한 다음의 응답을 읽고 평가하기"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:77
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:56
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:60
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:28
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:27
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:49
+msgid "Associated Files"
+msgstr "연관된 파일"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:91
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:70
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:71
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:40
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:39
+msgid "We could not submit your assessment"
+msgstr "평가 결과를 제출할 수 없습니다"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_cancelled.html:19
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:21
+#: openassessment/templates/openassessmentblock/self/oa_self_cancelled.html:21
+#: openassessment/templates/openassessmentblock/student_training/student_training_cancelled.html:18
+#: openassessment/xblock/staff_assessment_mixin.py:106
+msgid "Cancelled"
+msgstr "취소됨"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_closed.html:20
+#, python-format
+msgid ""
+"\n"
+"            Incomplete (%(num_graded)s of %(num_must_grade)s)\n"
+"        "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_closed.html:35
+msgid ""
+"The due date for this step has passed. This step is now closed. You can no "
+"longer complete peer assessments or continue with this assignment, and you "
+"will receive a grade of Incomplete."
+msgstr ""
+"이 단계에 대한 기한이 지났습니다. 이 단계는 닫혔습니다. 동료 평가를 하거나, "
+"이 과제를 진행할 수 없습니다. 그리고, 이 과제애 대해서는 완료하지 못함 점수를"
+"받게 될 것입니다."
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_complete.html:13
+msgid "Completed"
+msgstr "완료됨"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_complete.html:31
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:41
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode_waiting.html:36
+msgid ""
+"You have successfully completed all of the required peer assessments for "
+"this assignment. You may assess additional peer responses if you want to. "
+"Completing additional assessments will not affect your final grade."
+msgstr ""
+"이 과제에 대한 모든 동료 평가를 성공적으로 마치셨습니다."
+"원한다면 추가적인 동료 평가를 하셔도 됩니다."
+"추가적인 동료 평가는 최종 점수에 반영되지는 않습니다."
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_complete.html:36
+msgid "We could not retrieve additional submissions for assessment"
+msgstr "평가에 대한 추가적인 제출을 불러올 수 없습니다"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_complete.html:43
+msgid "Continue Assessing Peers"
+msgstr "동료 평가 계속하기"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode.html:26
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode_waiting.html:20
+#, python-format
+msgid ""
+"\n"
+"        Complete (%(num_graded)s)\n"
+"      "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_turbo_mode_waiting.html:38
+msgid ""
+"All submitted peer responses have been assessed. Check back later to see if "
+"more learners have submitted responses."
+msgstr ""
+"모든 제출된 동료의 응답이 평가되었습니다. 다음에 다시 확인하여 다른 학습자의 제출된"
+"응답이 있는지 확인해 주세요"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_unavailable.html:16
+#: openassessment/templates/openassessmentblock/response/oa_response_unavailable.html:17
+#: openassessment/templates/openassessmentblock/self/oa_self_unavailable.html:17
+#: openassessment/templates/openassessmentblock/student_training/student_training_unavailable.html:16
+#: openassessment/xblock/staff_assessment_mixin.py:99
+#: openassessment/xblock/staff_assessment_mixin.py:123
+msgid "Not Available"
+msgstr "가능하지 않음"
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_waiting.html:20
+#, python-format
+msgid ""
+"\n"
+"          In Progress (%(review_number)s of %(num_must_grade)s)\n"
+"        "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/peer/oa_peer_waiting.html:37
+msgid ""
+"All available peer responses have been assessed. Check back later to see if "
+"more learners have submitted responses. You will receive your grade after "
+"you've completed all the steps for this problem and your peers have assessed "
+"your response."
+msgstr ""
+"모든 가능한 동료의 응답이 평가되었습니다. 다음에 다시 방문하여 다른 학습자가"
+"제출한 응답이 있는지 확인해 주세요. 이 문제에 대한 모든 단계를 완료하고,"
+"동료가 당신의 응답을 평가한 이후에 최종 점수를 받게 될 것입니다"
+
+#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 (in 5 days and 45 minutes)"
+#: openassessment/templates/openassessmentblock/response/oa_response.html:31
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime"
+"\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in "
+"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language="
+"\"%(user_language)s\"></span>\n"
+"            "
+msgstr ""
+
+#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
+#: openassessment/templates/openassessmentblock/response/oa_response.html:38
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime"
+"\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in "
+"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language="
+"\"%(user_language)s\"></span>\n"
+"            "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:46
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:46
+msgid "In Progress"
+msgstr "진행중"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:57
+msgid "Enter your response to the prompt."
+msgstr "지문에 대한 응답을 입력 하세요."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:59
+msgid ""
+"You can save your progress and return to complete your response at any time "
+"before the due date"
+msgstr ""
+"진행된 곳까지 저장해 두고, 제출 기한내에는, 다시 언제든 응답작성을 계속 할 수 있습니다."
+""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:64
+msgid ""
+"You can save your progress and return to complete your response at any time."
+msgstr ""
+"진행된 상황을 저장해 두고, 언제든 다시 응답을 완료할 수 있습니다"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:66
+msgid "After you submit your response, you cannot edit it"
+msgstr "응답을 제출한 이후에는 더 이상 편집할 수 없습니다."
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:75
+msgid "The prompt for this section"
+msgstr "이 섹션에 대한 지문"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:93
+msgid "Your response (required)"
+msgstr "당신의 응답(필수)"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:95
+msgid "Your response (optional)"
+msgstr "당신의 응답(선택)"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:105
+msgid "Enter your response to the prompt above."
+msgstr "위의 지문에 대한 당신의 응답을 입력하세요"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:119
+msgid "We could not save your progress"
+msgstr "진행 상황을 저장할 수 없습니다"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:126
+msgid "Save your progress"
+msgstr "진행상황 저장"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:130
+msgid "Your Submission Status"
+msgstr "제출 상태"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:142
+msgid "We could not upload files"
+msgstr "파일을 업로드할 수 없습니다"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:146
+msgid "Select a file to upload for this submission."
+msgstr "이 제출을 위해 업로드할 파일을 선택하세요"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:148
+msgid "Upload files"
+msgstr "파일 업로드"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:157
+msgid "You may continue to work on your response until you submit it."
+msgstr "제출할때까지는 응답을 계속 수정할 수 있습니다"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:164
+msgid "We could not submit your response"
+msgstr "응답을 제출할 수 없습니다"
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:174
+msgid "Submit your response and move to the next step"
+msgstr "응답을 제출하고, 다음 단계로 진행"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:34
+msgid "Your submission was cancelled. "
+msgstr "제출이 취소 되었습니다."
+
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:37
+#, python-format
+msgid ""
+"\n"
+"                                Your submission has been cancelled by "
+"%(removed_by_username)s on %(removed_datetime)s\n"
+"                            "
+msgstr ""
+"\n"
+"                                제출이 "
+"%(removed_by_username)s 에 의해 %(removed_datetime)s 에 취소되었습니다.\n"
+"                            "
+
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:41
+#, python-format
+msgid ""
+"\n"
+"                               Your submission was cancelled on "
+"%(removed_datetime)s\n"
+"                            "
+msgstr ""
+"\n"
+"                               제출이 "
+"%(removed_datetime)s에 취소되었습니다.\n"
+"                            "
+
+#: openassessment/templates/openassessmentblock/response/oa_response_cancelled.html:48
+#, python-format
+msgid ""
+"\n"
+"                            Comments: %(comments)s\n"
+"                        "
+msgstr ""
+"\n"
+"                            코멘트: %(comments)s\n"
+"                        "
+
+#: openassessment/templates/openassessmentblock/response/oa_response_closed.html:19
+#: openassessment/templates/openassessmentblock/self/oa_self_closed.html:20
+#: openassessment/templates/openassessmentblock/student_training/student_training_closed.html:17
+msgid "Incomplete"
+msgstr "완료되지 않음"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_closed.html:32
+msgid ""
+"The due date for this step has passed. This step is now closed. You can no "
+"longer submit a response or continue with this problem, and you will receive "
+"a grade of Incomplete. If you saved but did not submit a response, the "
+"response appears in the course records."
+msgstr ""
+"이 단계에 대한 마감일이 지났습니다. 이 단계는 닫혔습니다. 당신은 더 이상 응답을"
+"제출하거나 이 문제에 대해 진행할 수 없습니다. 그리고, 완료하지 못함의 점수를 받게"
+"될 것입니다. 혹시, 저장하고 제출하지 못한 응답이 있다면, 그 응답이 코드 기록에"
+"나타날 것입니다"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_graded.html:20
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:20
+#: openassessment/templates/openassessmentblock/self/oa_self_complete.html:18
+#: openassessment/templates/openassessmentblock/student_training/student_training_complete.html:17
+#: openassessment/xblock/staff_assessment_mixin.py:113
+#: openassessment/xblock/staff_assessment_mixin.py:134
+msgid "Complete"
+msgstr "완료"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_graded.html:30
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:51
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:57
+msgid "Your response"
+msgstr "당신의 응답"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_graded.html:33
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:54
+msgid "Your Uploaded Files"
+msgstr "업로드한 파일들"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:32
+msgid ""
+"Your response has been submitted. You will receive your grade after all "
+"steps are complete and your response is fully assessed."
+msgstr ""
+"응답이 제출되었습니다. 모든 단계가 완료되고 당신의 응답이 다 평가되고 난 후에"
+"점수를 받게 될 것입니다"
+
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:34
+#, python-format
+msgid ""
+"\n"
+"                        You still need to complete the "
+"%(peer_start_tag)speer assessment%(end_tag)s and %(self_start_tag)sself "
+"assessment%(end_tag)s steps.\n"
+"                    "
+msgstr ""
+"\n"
+"                        아직 "
+"%(peer_start_tag)s동료 평가%(end_tag)s 와 %(self_start_tag)s자기 평가"
+"assessment%(end_tag)s 단계를 완료하지 않으셨습니다.\n"
+"                    "
+
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:38
+#, python-format
+msgid ""
+"\n"
+"                        You still need to complete the %(start_tag)speer "
+"assessment%(end_tag)s step.\n"
+"                    "
+msgstr ""
+"\n"
+"                        아직 %(start_tag)s동료 "
+"평가%(end_tag)s 단계를 완료하지 않으셨습니다.\n"
+"                    "
+
+#: openassessment/templates/openassessmentblock/response/oa_response_submitted.html:42
+#, python-format
+msgid ""
+"\n"
+"                        You still need to complete the %(start_tag)sself "
+"assessment%(end_tag)s step.\n"
+"                    "
+msgstr ""
+"\n"
+"                        아직 %(start_tag)s자기 "
+"평가%(end_tag)s 단계를 완료하지 않으셨습니다.\n"
+"                    "
+
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:23
+msgid "Assess Your Response"
+msgstr "당신의 응답에 대한 평가"
+
+#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 (in 5 days and 45 minutes)"
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:31
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime"
+"\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in "
+"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language="
+"\"%(user_language)s\"></span>\n"
+"           "
+msgstr ""
+
+#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:38
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime"
+"\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in "
+"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language="
+"\"%(user_language)s\"></span>\n"
+"           "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:78
+msgid "Submit your assessment"
+msgstr "평가 결과 제출"
+
+#: openassessment/templates/openassessmentblock/self/oa_self_closed.html:32
+msgid ""
+"The due date for this step has passed. This step is now closed. You can no "
+"longer complete a self assessment or continue with this assignment, and you "
+"will receive a grade of Incomplete."
+msgstr ""
+"이 단계에 대한 마감일이 지났습니다. 이 단계는 닫혔습니다. 당신은 이 과제에 "
+"대해 더 이상 자기 평가를 하거나 진행할 수 없습니다. 그리고, 이 과제에 대해"
+"완료 못함의 점수를 받게 될 것입니다"
+
+#: openassessment/templates/openassessmentblock/staff/oa_staff_grade.html:13
+#: openassessment/xblock/grade_mixin.py:348
+msgid "Staff Grade"
+msgstr "스태프 점수"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:6
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:17
+msgid "Manage Individual Learners"
+msgstr "학습자 개인별 관리"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:7
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:44
+msgid "View Assignment Statistics"
+msgstr "과제 통계 보기"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:15
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:42
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:124
+msgid "Close"
+msgstr "닫기"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:26
+msgid "Enter an individual learner's username or email"
+msgstr "학습자 개인의 사용자이름이나 email입력"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:29
+msgid "Submit"
+msgstr "제출"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:51
+msgid "Response total"
+msgstr "총 응답"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:57
+msgid "Location"
+msgstr "위치"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:63
+msgid "Learner Progress"
+msgstr "학습자 진도"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:67
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:90
+msgid "Problem Step"
+msgstr "문제 단계"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:68
+msgid "Active Learners in Step"
+msgstr "이 단계에 있는 학습자들"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:86
+msgid "Dates"
+msgstr "날짜들"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:91
+msgid "Release Date"
+msgstr "게시 날짜"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:104
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_area.html:110
+msgid "N/A"
+msgstr "적용불가"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners.html:7
+msgid "Staff Assessment"
+msgstr "스태프 평가"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:7
+msgid "Give this learner a grade using the problem's rubric."
+msgstr "문제 평가 기준에 의해 학습자에게 점수 부여"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:16
+#, python-format
+msgid ""
+"\n"
+"                                        Response for: %(student_username)s\n"
+"                                    "
+msgstr ""
+"\n"
+"                                        %(student_username)s 의 응답\n"
+"                                    "
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:20
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:19
+msgid "Learner Response"
+msgstr "학습자의 응답"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:25
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:24
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:46
+msgid "The learner's response to the prompt above"
+msgstr "위의 지문에 대한 학습자의 응답"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:47
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:46
+msgid "Submit assessment"
+msgstr "평가 결과 제출"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_assessment.html:53
+msgid "Submit assessment and continue grading"
+msgstr "평가 결과 제출하고 계속 채점하기"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_grade_learners_count.html:6
+#, python-format
+msgid ""
+"\n"
+"                %(ungraded)s Available and %(in_progress)s Checked Out\n"
+"            "
+msgstr ""
+"\n"
+"                %(ungraded)s 개가 존재하고, %(in_progress)s 개 가져옴\n"
+"            "
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:6
+msgid "Override this learner's current grade using the problem's rubric."
+msgstr "문제의 체점기준에 맞추어 학습자의 현재 점수를 오버라이드 함"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_staff_override_assessment.html:15
+#, python-format
+msgid ""
+"\n"
+"                                    Response for: %(student_username)s\n"
+"                                "
+msgstr ""
+"\n"
+"                                    %(student_username)s 의 응답\n"
+"                                "
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:10
+#, python-format
+msgid ""
+"\n"
+"                Viewing learner: %(learner)s\n"
+"            "
+msgstr ""
+"\n"
+"                보고있는 학습자: %(learner)s\n"
+"            "
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:21
+msgid "Learner's Response"
+msgstr "학습자의 응답"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:29
+#, python-format
+msgid ""
+"\n"
+"                            Learner submission removed by "
+"%(removed_by_username)s on %(removed_datetime)s\n"
+"                        "
+msgstr ""
+"\n"
+"                            학습자의 제출은 "
+"%(removed_by_username)s 에 의해 %(removed_datetime)s 에 삭제되었음\n"
+"                        "
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:33
+#, python-format
+msgid ""
+"\n"
+"                            Learner submission removed on "
+"%(removed_datetime)s\n"
+"                        "
+msgstr ""
+"\n"
+"                            학습자의 제출은 "
+"%(removed_datetime)s에 삭제됨\n"
+"                        "
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:40
+#, python-format
+msgid ""
+"\n"
+"                        Comments: %(comments)s\n"
+"                    "
+msgstr ""
+"\n"
+"                        코멘트: %(comments)s\n"
+"                    "
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:57
+msgid "Peer Assessments for This Learner"
+msgstr "이 학습자에 대한 동료 평가"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:62
+msgid "Peer Assessments Completed by This Learner"
+msgstr "이 학습자에 대한 동료 평가가 완료 되었음"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:67
+msgid "Learner's Self Assessment"
+msgstr "학습자의 자기 평가"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:72
+msgid "Staff Assessment for This Learner"
+msgstr "이 학습자에 대한 스태프 평가"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:81
+msgid "Learner's Final Grade"
+msgstr "학습자의 최종 점수"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:90
+#, python-format
+msgid ""
+"\n"
+"                            Final grade: %(points_earned)s out of "
+"%(points_possible)s\n"
+"                        "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:97
+msgid "Final Grade Details"
+msgstr "최종 점수 상세"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:117
+#, python-format
+msgid ""
+"\n"
+"                                        %(assessment_label)s - %(points)s "
+"point\n"
+"                                    "
+msgid_plural ""
+"\n"
+"                                        %(assessment_label)s - %(points)s "
+"points\n"
+"                                    "
+msgstr[0] ""
+msgstr[1] ""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:132
+msgid "Feedback Recorded"
+msgstr "기록된 피드백"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:143
+msgid "The submission is waiting for assessments."
+msgstr "제출이 평가를 기다리고 있습니다"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:147
+msgid ""
+"The learner's submission has been removed from peer assessment. The learner "
+"receives a grade of zero unless you delete the learner's state for the "
+"problem to allow them to resubmit a response."
+msgstr ""
+"학습자의 제출은 동료 평과 과정에서 삭제 되었습니다. 학습자가 문제를"
+"다시 제출할 수 있도록 학습자의 상태를 지우지 않으면 영점 처리 될 것입니다."
+""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:151
+msgid "The problem has not been started."
+msgstr "이 문제는 아직 시작되지 않았습니다."
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:155
+msgid "The problem has not been completed."
+msgstr "이 문제는 아직 완료되지 않았습니다."
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:167
+msgid "Submit Assessment Grade Override"
+msgstr "평가 점수 오버라이드 제출"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:183
+msgid "Remove Submission From Peer Grading"
+msgstr "동료 평가 점수에서 제거"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:192
+msgid "Caution: This Action Cannot Be Undone"
+msgstr "주의: 이 작업은 되돌릴 수 없습니다"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:193
+msgid ""
+"Removing a learner's submission cannot be undone and should be done with "
+"caution."
+msgstr ""
+"학습자의 제출을 제거하는것은 취소할 수 없으며, 주의를 기울여 작업해야 합니다"
+""
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:198
+msgid "Comments:"
+msgstr "코멘트:"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:207
+msgid "Remove submission"
+msgstr "제출물 제거"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info.html:222
+msgid "A response was not found for this learner."
+msgstr "이 학습자의 응답이 없습니다."
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:16
+#, python-format
+msgid ""
+"\n"
+"                            Assessment %(assessment_num)s:\n"
+"                        "
+msgstr ""
+"\n"
+"                            평가 %(assessment_num)s:\n"
+"                        "
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:22
+msgid "Assessment Details"
+msgstr "평가 상세"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:26
+msgid "Selected Option"
+msgstr "선택된 내용"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:27
+msgid "Feedback"
+msgstr "피드백"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:29
+msgid "Points Possible"
+msgstr "가능한 점수"
+
+#: openassessment/templates/openassessmentblock/staff_area/oa_student_info_assessment_detail.html:59
+msgid "Overall Feedback"
+msgstr "전체적 피드백"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:16
+msgid "Learn to Assess Responses"
+msgstr "응답을 평가하는 방법 배우기"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:25
+#, python-format
+msgid ""
+"\n"
+"                      In Progress (%(current_progress_num)s of "
+"%(training_available_num)s)\n"
+"                  "
+msgstr ""
+
+#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "available August 13th, 2014 (in 5 days and 45 minutes)"
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:36
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-"
+"datetime=\"%(start_date)s\" data-string=\"available {date} (in "
+"%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language="
+"\"%(user_language)s\"></span>\n"
+"            "
+msgstr ""
+
+#. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:43
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-"
+"datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" "
+"data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></"
+"span>\n"
+"            "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:56
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:64
+msgid "Learning to Assess Responses"
+msgstr "응답을 평가하는 방법 학습중"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:59
+msgid ""
+"Before you begin to assess your peers' responses, you'll learn how to "
+"complete peer assessments by reviewing responses that instructors have "
+"already assessed. If you select the same options for the response that the "
+"instructor selected, you'll move to the next step. If you don't select the "
+"same options, you'll review the response and try again."
+msgstr ""
+"동료의 응답의 평가를 시작하기 전에, 어떻게 동료 평가를 완수하는지 배우게 될"
+"것입니다. 교수자가 평가한 응답을 리뷰해서 말이죠. 교수자가 선택한 것과 동일한"
+"선택 사항을 선택하면 다음 단계로 넘어갈 수 있습니다. 동일한 선택 사항을 선택"
+"하지 않았다면, 응답을 다시 리뷰하고 다시 시도할 수 있습니다"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:67
+msgid ""
+"Your assessment differs from the instructor's assessment of this response. "
+"Review the response and consider why the instructor may have assessed it "
+"differently. Then, try the assessment again."
+msgstr ""
+"평가가 이 응답에 대한 교수자의 평가와 다릅니다"
+"응답을 리뷰하고 교수자가 왜 다르게 평가했는지 생각해 보십시오."
+"그 이후에 다시 평가해 보십시오."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:74
+msgid "The response to the prompt above:"
+msgstr "위의 지문에 대한 응답:"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:96
+msgid "Selected Options Agree"
+msgstr "선택된 항목에 동의"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:99
+msgid "The option you selected is the option that the instructor selected."
+msgstr "선택하신 선택 사항이 교수자가 선택한 것과 일치합니다."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:103
+msgid "Selected Options Differ"
+msgstr "선택한 선택 사항이 다릅니다"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:106
+msgid "The option you selected is not the option that the instructor selected."
+msgstr "선택하신 선택 사항이 교수자의 선택과는 다릅니다."
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:142
+msgid "We could not check your assessment"
+msgstr "평가를 확인할 수 없습니다"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training.html:149
+msgid "Compare your selections with the instructor's selections"
+msgstr "선택하신 사항과 교수자의 선택 비교"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training_closed.html:29
+msgid ""
+"The due date for this step has passed. This step is now closed. You can no "
+"longer continue with this assignment, and you will receive a grade of "
+"Incomplete."
+msgstr ""
+"이 단계의 마감 날짜가 지났습니다. 이 단계는 닫혔습니다. 당신은 이 과제에 대해"
+"더 이상 진행할 수 없습니다. 그리고, 이 과제에 대해서 완료 못함의 점수를 받게 될"
+"것 입니다"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training_error.html:18
+msgid "Error Loading Learner Training Examples"
+msgstr "학습자 훈련 예제를 로드하는 과정에 에러가 발생했습니다"
+
+#: openassessment/templates/openassessmentblock/student_training/student_training_error.html:21
+msgid "The Learner Training Step of this assignment could not be loaded."
+msgstr "이 과제의 학습자 훈련 과정을 로드할 수 없습니다."
+
+#: openassessment/xblock/data_conversion.py:244
+msgid "You must provide options selected in the assessment."
+msgstr "평가에서 선택 사항을 선택해야 합니다."
+
+#: openassessment/xblock/data_conversion.py:247
+msgid "You must provide overall feedback in the assessment."
+msgstr "평가에 대한 전반적 피드백을 제공해야 합니다."
+
+#: openassessment/xblock/data_conversion.py:250
+msgid "You must provide feedback for criteria in the assessment."
+msgstr "평가의 평가 기준에 대한 피드백을 제공해야 합니다."
+
+#: openassessment/xblock/grade_mixin.py:72
+#: openassessment/xblock/leaderboard_mixin.py:53
+#: openassessment/xblock/self_assessment_mixin.py:39
+#: openassessment/xblock/student_training_mixin.py:57
+#: openassessment/xblock/student_training_mixin.py:264
+msgid "An unexpected error occurred."
+msgstr "예상치 못한 에러가 발생했습니다."
+
+#: openassessment/xblock/grade_mixin.py:169
+msgid "Peer Assessment"
+msgstr "동료 평가"
+
+#: openassessment/xblock/grade_mixin.py:171
+msgid "Self Assessment"
+msgstr "자기 평가"
+
+#: openassessment/xblock/grade_mixin.py:207
+msgid "Assessment feedback could not be saved."
+msgstr "평가에 대한 피드백을 저장할 수 없습니다."
+
+#: openassessment/xblock/grade_mixin.py:218
+msgid "Feedback saved."
+msgstr "피드백이 저장되었습니다."
+
+#: openassessment/xblock/grade_mixin.py:349
+#: openassessment/xblock/grade_mixin.py:495
+msgid "Staff Comments"
+msgstr "스태프의 코멘트"
+
+#: openassessment/xblock/grade_mixin.py:355
+msgid "Peer Median Grade"
+msgstr "동료 중간 점수"
+
+#: openassessment/xblock/grade_mixin.py:360
+#: openassessment/xblock/grade_mixin.py:502
+#, python-brace-format
+msgid "Peer {peer_index}"
+msgstr "동료 {peer_index}"
+
+#: openassessment/xblock/grade_mixin.py:361
+msgid "Peer Comments"
+msgstr "동료 코멘트"
+
+#: openassessment/xblock/grade_mixin.py:371
+msgid "Self Assessment Grade"
+msgstr "자기 평가 점수"
+
+#: openassessment/xblock/grade_mixin.py:371
+msgid "Your Self Assessment"
+msgstr "당신의 자기 평가"
+
+#: openassessment/xblock/grade_mixin.py:372
+#: openassessment/xblock/grade_mixin.py:514
+msgid "Your Comments"
+msgstr "당신의 코멘트"
+
+#: openassessment/xblock/grade_mixin.py:467
+msgid "Waiting for peer reviews"
+msgstr "동료 평가 대기중"
+
+#: openassessment/xblock/grade_mixin.py:507
+msgid "Peer"
+msgstr "동료"
+
+#: openassessment/xblock/peer_assessment_mixin.py:62
+msgid "You must submit a response before you can perform a peer assessment."
+msgstr "동료 평가를 하기 전에 응답을 제출해야 합니다."
+
+#: openassessment/xblock/peer_assessment_mixin.py:76
+msgid ""
+"This feedback has already been submitted or the submission has been "
+"cancelled."
+msgstr ""
+"이 피드백은 이미 제출되었거나, 제출이 취소 되었습니다."
+""
+
+#: openassessment/xblock/peer_assessment_mixin.py:101
+#: openassessment/xblock/peer_assessment_mixin.py:106
+msgid "Your peer assessment could not be submitted."
+msgstr "동료 평가 결과를 제출할 수 없습니다."
+
+#: openassessment/xblock/peer_assessment_mixin.py:120
+#: openassessment/xblock/student_training_mixin.py:270
+msgid "Could not update workflow status."
+msgstr "작업흐름 상태를 업데이트 할 수 없습니다."
+
+#: openassessment/xblock/peer_assessment_mixin.py:129
+msgid "Could not load peer assessment."
+msgstr "동료 평가를 로드할 수 없습니다."
+
+#: openassessment/xblock/peer_assessment_mixin.py:213
+msgid "Submit your assessment and review another response"
+msgstr "평가 결과를 제출하고 다른 응답 리뷰하기"
+
+#: openassessment/xblock/peer_assessment_mixin.py:217
+msgid "Submit your assessment and move to next step"
+msgstr "평가 결과 제출하고 다음 단계로 넘어가기"
+
+#: openassessment/xblock/peer_assessment_mixin.py:221
+#, python-brace-format
+msgid "Submit your assessment and move to response #{response_number}"
+msgstr "평가 결과를 제출하고 응답 #{response_number} 로 넘어가기"
+
+#: openassessment/xblock/resolve_dates.py:51
+#, python-brace-format
+msgid ""
+"'{date}' is an invalid date format. Make sure the date is formatted as YYYY-"
+"MM-DDTHH:MM:SS."
+msgstr ""
+"'{date}' 는 올바른 날짜 포멧이 아닙니다. 날짜년 YYYY-MM-DDTHH:MM:SS 형태로 포메팅"
+"되어 있어야 합니다"
+
+#: openassessment/xblock/resolve_dates.py:57
+#, python-brace-format
+msgid "'{date}' must be a date string or datetime"
+msgstr "'{date}' 는 날짜이거나 날짜시간이어야 합니다."
+
+#: openassessment/xblock/resolve_dates.py:210
+#, python-brace-format
+msgid ""
+"This step's start date '{start}' cannot be earlier than the previous step's "
+"start date '{prev}'."
+msgstr ""
+"이 단계의 시작날짜인 '{start}' 는 이전 단계의 시작 날짜인 '{prev}'보다 이전"
+"일 수 없습니다"
+
+#: openassessment/xblock/resolve_dates.py:218
+#, python-brace-format
+msgid ""
+"This step's due date '{due}' cannot be later than the next step's due date "
+"'{prev}'."
+msgstr ""
+"이 단계의 마감 날짜인 '{due}' 는 다음 단계의 마감날짜인 '{prev}'보다 이후일수"
+"없습니다"
+
+#: openassessment/xblock/resolve_dates.py:234
+#, python-brace-format
+msgid "The start date '{start}' cannot be later than the due date '{due}'"
+msgstr "시작 날짜인 '{start}'는 마감날짜인 '{due}' 보다 이후일 수 없습니다."
+
+#: openassessment/xblock/self_assessment_mixin.py:137
+msgid "You must submit a response before you can perform a self-assessment."
+msgstr "자기 평가를 하기 전에 응답을 제출해야 합니다."
+
+#: openassessment/xblock/self_assessment_mixin.py:159
+#: openassessment/xblock/self_assessment_mixin.py:166
+msgid "Your self assessment could not be submitted."
+msgstr "자기 평가 결과를 제출할 수 없습니다."
+
+#: openassessment/xblock/staff_area_mixin.py:38
+msgid "You do not have permission to schedule training"
+msgstr "훈련 일정을 조정할 권한이 없습니다."
+
+#: openassessment/xblock/staff_area_mixin.py:39
+msgid "You do not have permission to reschedule tasks."
+msgstr "작업의 일정을 조정할 권한이 없습니다."
+
+#: openassessment/xblock/staff_area_mixin.py:66
+msgid "You do not have permission to access the ORA staff area"
+msgstr "ORA의 스태프 영역에 접근할 권한이 없습니다."
+
+#: openassessment/xblock/staff_area_mixin.py:67
+msgid "You do not have permission to access ORA learner information."
+msgstr "ORA의 학습자 정보에 접근할 권한이 없습니다."
+
+#: openassessment/xblock/staff_area_mixin.py:68
+msgid "You do not have permission to access ORA staff grading."
+msgstr "ORA의 스태프 채점에 접근할 권한이 없습니다."
+
+#: openassessment/xblock/staff_area_mixin.py:177
+msgid "Error getting learner information."
+msgstr "학습자 정보를 가져오는 과정에 문제가 발생했습니다."
+
+#: openassessment/xblock/staff_area_mixin.py:217
+msgid "Error loading the checked out learner response."
+msgstr "학습자의 응답을 가져오는 과정에 문제가 발생했습니다."
+
+#: openassessment/xblock/staff_area_mixin.py:219
+msgid "No other learner responses are available for grading at this time."
+msgstr "지금은 평가할 다른 학습자의 응답이 없습니다. "
+
+#: openassessment/xblock/staff_area_mixin.py:222
+msgid "Error getting staff grade information."
+msgstr "스태프 채점 정보를 가져오는데 에러가 발생했습니다."
+
+#: openassessment/xblock/staff_area_mixin.py:243
+msgid "Error getting staff grade ungraded and checked out counts."
+msgstr "스태프 채점 업그레이드와 갯수를 가져오는데 에러가 발생했습니다."
+
+#: openassessment/xblock/staff_area_mixin.py:450
+msgid "Please enter valid reason to remove the submission."
+msgstr "제출물을 제거하는 적절한 이유를 입력해 주십시오."
+
+#: openassessment/xblock/staff_area_mixin.py:476
+msgid ""
+"The learner submission has been removed from peer assessment. The learner "
+"receives a grade of zero unless you delete the learner's state for the "
+"problem to allow them to resubmit a response."
+msgstr ""
+"학습자의 제출불이 동료 평가에서 제거되었습니다. 이 학습자는 0점을 받게 될"
+"것입니다. 그렇게 되는것을 원치 않는다면 문제에 대해 학습자의 상태를 삭제하여"
+"학습자가 응답을 다시 제출할 수 있도록 하십시오"
+
+#: openassessment/xblock/staff_assessment_mixin.py:39
+msgid "The submission ID of the submission being assessed was not found."
+msgstr "현제 평가하고 있는 제출물의 제출 ID를 찾을 수 없습니다."
+
+#: openassessment/xblock/staff_assessment_mixin.py:65
+#: openassessment/xblock/staff_assessment_mixin.py:72
+msgid "Your staff assessment could not be submitted."
+msgstr "스태프 평가를 제출할 수 없습니다."
+
+#: openassessment/xblock/staff_assessment_mixin.py:124
+msgid "Waiting for a Staff Grade"
+msgstr "스태프 평가 대기중"
+
+#: openassessment/xblock/staff_assessment_mixin.py:125
+msgid ""
+"Check back later to see if a course staff member has assessed your response. "
+"You will receive your grade after the assessment is complete."
+msgstr ""
+"코스 스태프 멤버가 응답을 평가한 후에 다시 확인해 주십시오. "
+"평가가 완료된 후에 점수를 확인할 수 있을것입니다"
+
+#: openassessment/xblock/staff_assessment_mixin.py:136
+msgid "You Must Complete the Steps Above to View Your Grade"
+msgstr "위의 단계들을 완료해야 점수를 확인할 수 있습니다."
+
+#: openassessment/xblock/staff_assessment_mixin.py:137
+msgid ""
+"Although a course staff member has assessed your response, you will receive "
+"your grade only after you have completed all the required steps of this "
+"problem."
+msgstr ""
+"코스 스태프 멤버가 당신의 응답을 평가 완료 하였지만, 이 문제의 "
+"다른 필요한 단계들이 완료된 후에야 당신의 점수를 "
+"확인하실 수 있습니다"
+
+#: openassessment/xblock/student_training_mixin.py:227
+msgid "Missing options_selected key in request"
+msgstr "요청에 options_selected 키가 빠져 있습니다"
+
+#: openassessment/xblock/student_training_mixin.py:229
+msgid "options_selected must be a dictionary"
+msgstr "options_selected 는 반드시 딕셔너리 형태이어야 합니다."
+
+#: openassessment/xblock/student_training_mixin.py:254
+#: openassessment/xblock/student_training_mixin.py:259
+msgid "Your scores could not be checked."
+msgstr "점수를 확인할 수 없습니다."
+
+#: openassessment/xblock/studio_mixin.py:182
+#: openassessment/xblock/studio_mixin.py:194
+msgid "Error updating XBlock configuration"
+msgstr "XBlock 설정을 업데이트하는 과정에 문제가 발생했습니다."
+
+#: openassessment/xblock/studio_mixin.py:197
+msgid "Error: both text and file upload responses can't be disabled"
+msgstr "에러: 텍스트와 업로드된 파일 이 같이 disable될 수 없습니다."
+
+#: openassessment/xblock/studio_mixin.py:200
+msgid ""
+"Error: in case if text response is disabled file upload response must be "
+"required"
+msgstr ""
+"에러: 텍스트 응답을 디스에이블 하였다면 파일 업로드 응답은 반드시 필요"
+"합니다"
+
+#: openassessment/xblock/studio_mixin.py:203
+msgid ""
+"Error: in case if file upload response is disabled text response must be "
+"required"
+msgstr ""
+"어러: 파일 업로드 응답이 디스에이블 되었다면, 텍스트 응답은 반드시 "
+"필요 합니다"
+
+#: openassessment/xblock/studio_mixin.py:227
+#, python-brace-format
+msgid "Validation error: {error}"
+msgstr "검증 에러: {error}"
+
+#: openassessment/xblock/studio_mixin.py:253
+msgid "Successfully updated OpenAssessment XBlock"
+msgstr "열린 응답 XBlock이 성공적으로 갱신되었습니다"
+
+#: openassessment/xblock/submission_mixin.py:77
+msgid "\"submission\" required to submit answer."
+msgstr "\"submission\" 에는 답 제출이 필요합니다. "
+
+#: openassessment/xblock/submission_mixin.py:98
+msgid "To submit a response, view this component in Preview or Live mode."
+msgstr "응답을 제출하기 위해서는 이 구성요소를 프리뷰나 라이브 모드에서 보십시오."
+
+#: openassessment/xblock/submission_mixin.py:104
+msgid "Multiple submissions are not allowed."
+msgstr "여러개의 제출물은 허용되지 않습니다."
+
+#: openassessment/xblock/submission_mixin.py:147
+msgid "API returned unclassified exception."
+msgstr "API 에서 정의되지 않은 예외를 리턴하였습니다."
+
+#: openassessment/xblock/submission_mixin.py:189
+msgid "This response could not be saved."
+msgstr "이 응답은 저장될 수 없습니다."
+
+#: openassessment/xblock/submission_mixin.py:193
+msgid "This response was not submitted."
+msgstr "이 응답을 제출할 수 없습니다."
+
+#: openassessment/xblock/submission_mixin.py:222
+msgid "Files descriptions could not be saved."
+msgstr "파일 설명을 저장할 수 없습니다."
+
+#: openassessment/xblock/submission_mixin.py:226
+msgid "Files descriptions were not submitted."
+msgstr "화일 설명이 제출되지 않았습니다."
+
+#: openassessment/xblock/submission_mixin.py:290
+msgid "There was an error uploading your file."
+msgstr "파일을 업로드하는데 에러가 발생하였습니다"
+
+#: openassessment/xblock/submission_mixin.py:298
+msgid "Content type must be GIF, PNG or JPG."
+msgstr "콘텐츠 타입은 GIF, PNG 혹은 JPG 이어야 합니다."
+
+#: openassessment/xblock/submission_mixin.py:301
+msgid "Content type must be PDF, GIF, PNG or JPG."
+msgstr "콘텐츠 타입은 PDF, GIF, PNG 혹은 JPG이어야 합니다."
+
+#: openassessment/xblock/submission_mixin.py:304
+msgid "File type must be one of the following types: {}"
+msgstr "파일 타입은 반드시 다음 타입들 중 하나이어야 합니다: {}"
+
+#: openassessment/xblock/submission_mixin.py:308
+msgid "File type is not allowed."
+msgstr "허용되지 않는 파일타입 입니다."
+
+#: openassessment/xblock/submission_mixin.py:315
+msgid "Error retrieving upload URL."
+msgstr "업로드 URL을 가져오는데 에러가 발생했습니다."
+
+#: openassessment/xblock/submission_mixin.py:455
+msgid "This response has been saved but not submitted."
+msgstr "이 응답은 저장되었지만, 제출되지는 않았습니다."
+
+#: openassessment/xblock/submission_mixin.py:456
+msgid "This response has not been saved."
+msgstr "이 응답은 저장되지 않았습니다."
+
+#: openassessment/xblock/validation.py:116
+msgid "This problem must include at least one assessment."
+msgstr "이 문제에 최소한 하나의 평가는 포함해야 합니다."
+
+#: openassessment/xblock/validation.py:120
+msgid "The assessment order you selected is invalid."
+msgstr "선택한 평가 순서가 적절하지 않습니다."
+
+#: openassessment/xblock/validation.py:130
+msgid ""
+"In peer assessment, the \"Must Grade\" value must be a positive integer."
+msgstr ""
+"동료 평가에서 \"반드시 평가\" 값은 양의 정수 이어야 합니다"
+
+#: openassessment/xblock/validation.py:133
+msgid "In peer assessment, the \"Graded By\" value must be a positive integer."
+msgstr "동료 평가에서 \"평가자\"의 값은 양의 정수 이어야 합니다"
+
+#: openassessment/xblock/validation.py:137
+msgid ""
+"In peer assessment, the \"Must Grade\" value must be greater than or equal "
+"to the \"Graded By\" value."
+msgstr ""
+"동료 평가에서 \"반드시 평가\" 값은 \"평가자\" 값보다 크거나 같아야 합니다."
+""
+
+#: openassessment/xblock/validation.py:146
+msgid "You must provide at least one example response for learner training."
+msgstr "학습자 훈련을 위한 예제를 하나 이상 입력해야 합니다."
+
+#: openassessment/xblock/validation.py:149
+msgid "Each example response for learner training must be unique."
+msgstr "학습자 훈련을 위한 각각의 예제는 달라야 합니다."
+
+#: openassessment/xblock/validation.py:156
+msgid ""
+"The \"required\" value must be true if staff assessment is the only step."
+msgstr ""
+"스태프 평가가 유일한 평가일때 \"필요\" 값은 참이어야 합니다"
+
+#: openassessment/xblock/validation.py:160
+msgid ""
+"The number of assessments cannot be changed after the problem has been "
+"released."
+msgstr ""
+"평가의 갯수는, 평가가 게시된 이후에 변경될 수 없습니다."
+""
+
+#: openassessment/xblock/validation.py:165
+msgid ""
+"The assessment type cannot be changed after the problem has been released."
+msgstr ""
+"문제가 게시된 이후에 평가 형태는 변경될 수 없습니다"
+
+#: openassessment/xblock/validation.py:188
+msgid "This rubric definition is not valid."
+msgstr "이 평가기준 정의는 적절하지 못합니다."
+
+#: openassessment/xblock/validation.py:194
+#, python-brace-format
+msgid "Options in '{criterion}' have duplicate name(s): {duplicates}"
+msgstr "'{criterion}' 의 선택 사항에 중복된 이름이 있습니다: {duplicates} "
+
+#: openassessment/xblock/validation.py:202
+msgid "Criteria with no options must require written feedback."
+msgstr "선택 사항이 없는 평가기준에는 피드백이 반드시 있어야 합니다."
+
+#: openassessment/xblock/validation.py:211
+msgid "Prompts cannot be created or deleted after a problem is released."
+msgstr "지문은 게시된 이후에 추가되거나 삭제될 수 없습니다."
+
+#: openassessment/xblock/validation.py:215
+msgid "The number of criteria cannot be changed after a problem is released."
+msgstr "문제가 게시된 이후에 평가기준의 갯수는 변경될 수 없습니다."
+
+#: openassessment/xblock/validation.py:228
+msgid "Criteria names cannot be changed after a problem is released"
+msgstr "문제가 게시된 이후 평가기준 이름은 변경될 수 없습니다."
+
+#: openassessment/xblock/validation.py:233
+msgid "The number of options cannot be changed after a problem is released."
+msgstr "문제가 게시된 이후 선택 항목의 갯수는 변경될 수 없습니다."
+
+#: openassessment/xblock/validation.py:238
+msgid "Point values cannot be changed after a problem is released."
+msgstr "문제가 게시된 이후 점수 값은 변경될 수 없습니다."
+
+#: openassessment/xblock/validation.py:289
+msgid "Learner training must have at least one training example."
+msgstr "학습자 훈련에는 최소한 한개의 훈련 예제가 있어야 합니다."
+
+#: openassessment/xblock/validation.py:353
+msgid "Leaderboard number is invalid."
+msgstr "리더보드 갯수가 부적절 합니다."
+
+#: openassessment/xblock/validation.py:376
+msgid "The submission format is invalid."
+msgstr "제출 포멧이 부적절 합니다."
