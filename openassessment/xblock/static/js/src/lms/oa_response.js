@@ -641,6 +641,7 @@ OpenAssessment.ResponseView.prototype = {
 
         for (var i = 0; i < files.length; i++) {
             mainDiv = $('<div/>');
+            mainDiv.hide();
 
             divLabel = $('<div/>');
             divLabel.addClass('submission__file__description__label');
@@ -652,11 +653,7 @@ OpenAssessment.ResponseView.prototype = {
             textarea = $('<textarea />', {
                 'aria-label': gettext("Describe ") + files[i].name
             });
-            if ((this.filesDescriptions.indexOf(i) !== -1) && (this.filesDescriptions[i] !== '')) {
-                textarea.val(this.filesDescriptions[i]);
-            } else {
-                descriptionsExists = false;
-            }
+            textarea.val(files[i].name);
             textarea.addClass('file__description file__description__' + i);
             textarea.appendTo(divTextarea);
 
