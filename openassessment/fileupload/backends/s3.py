@@ -1,8 +1,11 @@
+import json
 import logging
 
 import boto
+from boto.s3.key import Key
 
 from django.conf import settings
+from django.urls import reverse
 
 from ..exceptions import FileUploadInternalError
 from .base import BaseBackend
@@ -36,12 +39,17 @@ class Backend(BaseBackend):
             conn = _connect_to_s3()
             bucket = conn.get_bucket(bucket_name)
             s3_key = bucket.get_key(key_name)
-            return s3_key.generate_url(expires_in=self.DOWNLOAD_URL_TIMEOUT) if s3_key else ""
+            return self._get_url(key) if s3_key else ''
         except Exception as ex:
             logger.exception(
                 u"An internal exception occurred while generating a download URL."
             )
             raise FileUploadInternalError(ex)
+
+    def _get_url(self, key):
+        key_name = self._get_key_name(key)
+        url = reverse("openassessment-s3-storage", kwargs={'key': key_name})
+        return url
 
     def remove_file(self, key):
         bucket_name, key_name = self._retrieve_parameters(key)
@@ -53,6 +61,21 @@ class Backend(BaseBackend):
             return True
         else:
             return False
+
+    def save_metadata(self, key, metadata):
+        if metadata is None:
+            metadata = {}
+
+        bucket_name, key_name = self._retrieve_parameters(key)
+        conn = _connect_to_s3()
+        bucket = conn.get_bucket(bucket_name)
+        logger.info(
+            u"{key} = {value}".format(key=key_name, value=json.dumps(metadata))
+        )
+        s3_key = Key(bucket)
+        s3_key.key = key_name
+        s3_key.set_contents_from_string(json.dumps(metadata))
+        return True
 
 
 def _connect_to_s3():

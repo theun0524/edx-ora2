@@ -27,6 +27,8 @@ update-npm-requirements:
 javascript: update-npm-requirements
 	node_modules/.bin/uglifyjs $(STATIC_JS)/src/oa_shared.js $(STATIC_JS)/src/*.js $(STATIC_JS)/src/lms/*.js $(STATIC_JS)/lib/backgrid/backgrid.min.js > "$(STATIC_JS)/openassessment-lms.min.js"
 	node_modules/.bin/uglifyjs $(STATIC_JS)/src/oa_shared.js $(STATIC_JS)/src/*.js $(STATIC_JS)/src/studio/*.js $(STATIC_JS)/lib/backgrid/backgrid.min.js > "$(STATIC_JS)/openassessment-studio.min.js"
+	docker cp $(STATIC_JS)/openassessment-lms.min.js `docker ps --format "{{.ID}}" -f name=studio`:/usr/local/lib/python2.7/dist-packages/$(STATIC_JS)/
+	docker cp $(STATIC_JS)/openassessment-studio.min.js `docker ps --format "{{.ID}}" -f name=studio`:/usr/local/lib/python2.7/dist-packages/$(STATIC_JS)/
 
 sass:
 	python scripts/compile_sass.py

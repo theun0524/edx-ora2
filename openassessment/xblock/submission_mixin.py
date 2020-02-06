@@ -211,6 +211,10 @@ class SubmissionMixin(object):
             if isinstance(descriptions, list) and all(map(lambda description: isinstance(description, basestring), descriptions)):
                 try:
                     self.saved_files_descriptions = json.dumps(descriptions)
+                    file_upload_api.save_metadata(
+                        self._get_student_item_key('metadata.json'),
+                        descriptions
+                    )
 
                     # Emit analytics event...
                     self.runtime.publish(
@@ -333,6 +337,7 @@ class SubmissionMixin(object):
 
         """
         removed_num = 0
+        file_upload_api.remove_file(self._get_student_item_key('metadata.json'))
         for i in range(self.MAX_FILES_COUNT):
             removed = file_upload_api.remove_file(self._get_student_item_key(i))
             if removed:
@@ -362,16 +367,10 @@ class SubmissionMixin(object):
 
         """
         student_item_dict = self.get_student_item_dict()
-        num = int(num)
-        if num > 0:
-            student_item_dict['num'] = num
-            return u"{student_id}/{course_id}/{item_id}/{num}".format(
-                **student_item_dict
-            )
-        else:
-            return u"{student_id}/{course_id}/{item_id}".format(
-                **student_item_dict
-            )
+        student_item_dict['num'] = num
+        return u"{student_id}/{course_id}/{item_id}/{num}".format(
+            **student_item_dict
+        )
 
     def _get_url_by_file_key(self, key):
         """

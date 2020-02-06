@@ -654,6 +654,7 @@ OpenAssessment.ResponseView.prototype = {
                 'aria-label': gettext("Describe ") + files[i].name
             });
             textarea.val(files[i].name);
+            this.filesDescriptions[i] = files[i].name;
             textarea.addClass('file__description file__description__' + i);
             textarea.appendTo(divTextarea);
 

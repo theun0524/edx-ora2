@@ -102,6 +102,19 @@ class BaseBackend(object):
         """
         raise NotImplementedError
 
+    @abc.abstractmethod
+    def save_metadata(self, key, metadata):
+        """Save metadata to the related key.
+
+        Save metadata to the related key.
+
+        Args:
+            key (str): unique file identifier
+            metadata (dict): json-dumpable data
+
+        """
+        raise NotImplementedError
+
     def _retrieve_parameters(self, key):
         """
         Simple utility function to validate settings and arguments before compiling

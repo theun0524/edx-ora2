@@ -27,3 +27,10 @@ def remove_file(key):
     Remove file from the storage
     """
     return backends.get_backend().remove_file(key)
+
+
+def save_metadata(key, metadata):
+    """
+    Save metadata to key
+    """
+    return backends.get_backend().save_metadata(key, metadata)
