@@ -401,6 +401,7 @@ class SubmissionMixin(object):
 
         """
         urls = []
+        # logger.info('answer = {}'.format(json.dumps(submission['answer'])))
         if 'file_keys' in submission['answer']:
             file_keys = submission['answer'].get('file_keys', [])
             descriptions = submission['answer'].get('files_descriptions', [])

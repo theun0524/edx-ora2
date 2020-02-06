@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+import urllib
 
 from django.conf import settings
 from django.http import HttpResponseNotFound
@@ -40,7 +41,7 @@ def s3_storage(request, key):
         )
         response_headers = {
           'response-content-type': 'application/force-download',
-          'response-content-disposition':'attachment;filename="%s"' % file_name
+          'response-content-disposition':'attachment;filename*=UTF-8\'\'%s' % urllib.quote(file_name.encode('utf-8'))
         }
         response = redirect(s3_key.generate_url(
             expires_in=BaseBackend.DOWNLOAD_URL_TIMEOUT,
